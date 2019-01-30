@@ -30,6 +30,30 @@ a:hover {
   color: #DD5555;
 }
 
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#sidebar li {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#page-content {
+  margin-left: 120px;
+}
+
 .img-circle {
   border-radius: 50%;
 }
@@ -51,8 +75,8 @@ a:hover {
 }
 
 .container {
-  width: 500px;   /* This sets the width */
-  margin: 0 auto; /* This automatically sets left/right margins */
+    width: 90%;
+    margin: 30px auto;
 }
 
 .text-center {

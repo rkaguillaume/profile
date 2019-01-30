@@ -10,86 +10,108 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="card-white text-center">
-      <img src="images/pic.png" alt="My Pic profile" class="img-circle profile-pic-size ">
-      <h1>Guillaume Roche</h1>
+  <div id="sidebar">
+    <ul>
+      <li>
+        <a href="#summary">
+          <i class="fas fa-question-circle"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#favorite-movies">
+          <i class="fas fa-film"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#help">
+          <i class="fa fa-life-ring"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
 
-      <h2>Training at Le Wagon</h2>
-      <p>I'am currently at Le Wagon Bordeaux. I started a training to be developpeur fullstack. I will learn HTML5, CC3, Javascript, Ruby and Rails !</p>
+  <div id="page-content">
+    <div class="container">
+      <div class="card-white text-center">
+        <img src="images/pic.png" alt="My Pic profile" class="img-circle profile-pic-size" id="summary">
+        <h1>Guillaume Roche</h1>
 
-      <a href="www.linkedin.com" class="btn-red">Check my Profile</a>
-    </div>
+        <h2>Training at Le Wagon</h2>
+        <p>I'am currently at Le Wagon Bordeaux. I started a training to be developpeur fullstack. I will learn HTML5, CC3, Javascript, Ruby and Rails !</p>
 
-    <div class="card-white text-center">
-      <ul class="list-inline">
-        <li>
-          <a href="www.facebook.com">
-            <i class="fab fa-facebook"></i>
-            <br/>Facebook
-          </a>
-        </li>
-        <li>
-          <a href="www.twitter.com">
-            <i class="fab fa-twitter-square"></i>
-            <br/>Twitter
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com">
-            <i class="fab fa-linkedin"></i>
-            <br/>Linkedin
-          </a>
-        </li>
-      </ul>
-    </div>
+        <a href="www.linkedin.com" class="btn-red">Check my Profile</a>
+      </div>
 
-    <div class="card-white text-center">
-      <h2>My Favorites Movies</h2>
-        <table>
-        <tbody>
-          <tr>
-            <td><img src="images/starwars.jpeg" alt="star wars affiche" class="movie-pic"></td>
-            <td> discrimina, non maturitate vel consiliis mitigabat, ut aliquotiens celsae potestates iras principum molliverunt, sed adversando iurgandoque cum parum congrueret, eum ad rabiem potius evibrabat, Augustum actus eius
-            </td>
-          </tr>
-          <tr>
-            <td><img src="images/LOTR2.jpg" alt="Le Seigneur des anneaux affiche" class="movie-pic"></td>
-            <td> discrimina, non maturitate vel consiliis mitigabat, ut aliquotiens celsae potestates iras principum molliverunt, sed adversando iurgandoque cum parum congrueret, eum ad rabiem potius evibrabat, Augustum actus eius
-            </td>
-          </tr>
-          <tr>
-            <td><img src="images/got.jpeg" alt="Games of Trones affiche" class="movie-pic"></td>
-            <td> discrimina, non maturitate vel consiliis mitigabat, ut aliquotiens celsae potestates iras principum molliverunt, sed adversando iurgandoque cum parum congrueret, eum ad rabiem potius evibrabat, Augustum actus eius
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+      <div class="card-white text-center">
+        <ul class="list-inline">
+          <li>
+            <a href="www.facebook.com">
+              <i class="fab fa-facebook"></i>
+              <br/>Facebook
+            </a>
+          </li>
+          <li>
+            <a href="www.twitter.com">
+              <i class="fab fa-twitter-square"></i>
+              <br/>Twitter
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com">
+              <i class="fab fa-linkedin"></i>
+              <br/>Linkedin
+            </a>
+          </li>
+        </ul>
+      </div>
 
-    <div class="card-white text-center">
-      <h2>About this page</h2>
-      <p>
-        Ut aliquotiens celsae potestates iras principum molliverunt, sed adversando iurgandoque cum parum congrueret, eum ad rabiem potius evibrabat, Augustum actus eius !
-      </p>
+      <div class="card-white text-center">
+        <h2 id="favorite-movies">My Favorites Movies</h2>
+          <table>
+          <tbody>
+            <tr>
+              <td><img src="images/starwars.jpeg" alt="star wars affiche" class="movie-pic"></td>
+              <td> discrimina, non maturitate vel consiliis mitigabat, ut aliquotiens celsae potestates iras principum molliverunt, sed adversando iurgandoque cum parum congrueret, eum ad rabiem potius evibrabat, Augustum actus eius
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/LOTR2.jpg" alt="Le Seigneur des anneaux affiche" class="movie-pic"></td>
+              <td> discrimina, non maturitate vel consiliis mitigabat, ut aliquotiens celsae potestates iras principum molliverunt, sed adversando iurgandoque cum parum congrueret, eum ad rabiem potius evibrabat, Augustum actus eius
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/got.jpeg" alt="Games of Trones affiche" class="movie-pic"></td>
+              <td> discrimina, non maturitate vel consiliis mitigabat, ut aliquotiens celsae potestates iras principum molliverunt, sed adversando iurgandoque cum parum congrueret, eum ad rabiem potius evibrabat, Augustum actus eius
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-      <ul class="list-inline">
-        <li>
-          <a href="#">
-            <i class="fas fa-heart fa-lg"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fas fa-hand-middle-finger fa-lg"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fas fa-star fa-lg"></i>
-          </a>
-        </li>
-      </ul>
+      <div class="card-white text-center" id="help">
+        <h2>About this page</h2>
+        <p>
+          Ut aliquotiens celsae potestates iras principum molliverunt, sed adversando iurgandoque cum parum congrueret, eum ad rabiem potius evibrabat, Augustum actus eius !
+        </p>
+
+        <ul class="list-inline">
+          <li>
+            <a href="#">
+              <i class="fas fa-heart fa-lg"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-hand-middle-finger fa-lg"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-star fa-lg"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 
